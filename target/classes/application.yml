@@ -1,0 +1,22 @@
+test-section:
+  test1: 1
+  test2: 2
+  test3: 3
+  test4:
+    - 1
+    - 2
+    - 3
+    - 4
+
+group:
+  need-send-full-message: true
+  mail-list:
+    - razoom@mail.com
+    - razoom2@mail.com
+  match-list:
+    -
+      field-name: fieldfirst
+      field-value: valuefirst
+    -
+      field-name: fieldsecond
+      field-value: valuesecond
